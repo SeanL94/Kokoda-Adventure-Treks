@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  background: url(KokodaRiver.jpg) center no-repeat;
+  background-size: 100% 100%;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: .5em;
+  width: 8em;
+  background-color: grey;
+  text-align: center;
+  border: 5px #4A7023 solid;
+  border-radius: 2.5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+}
+header {
+  float: left;
+  color: white;
+  font-family: headerFont;
+}
+
+#content {
+  width: 90%;
+  height: 75%;
+  position: absolute;
+  left: 5%;
+  top: 17%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#Booknow {
+  background-color: #2A2A2A;
+  margin-left: 50%;
+  width: 12%;
+  height: 5%;
+  color: white;
+  font-weight: bold;
+  border: black 1px solid;
+  margin-bottom: 2em;
+}
+@font-face {
+  font-family: headerFont;
+  src: url(BLACKADD.TTF);
+}
+
+nav, ul {
+  margin-top: 2.5em;
+}
+
+#rest {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  color: black;
+  font-size: 350%;
+  font-weight: bold;
+
+}
+
+#K {
+  font-size: 1000%;
+  position: absolute;
+  top: 1px;
+  left: 5%;
+}
+
+nav {
+  margin-left: 8em;
+  margin-top: 6.5em;
+  margin-bottom: 0em;
+}

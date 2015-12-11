@@ -8,14 +8,15 @@ ul {
   list-style: none;
 }
 li {
+  width:170px;
   list-style-type: none;
   display: inline-block;
   padding: .5em;
-  width: 8em;
-  background-color: grey;
+  background-color: #181818;
   text-align: center;
-  border: 5px #4A7023 solid;
-  border-radius: 2.5px;
+  border: 3.5px #4A7023 solid;
+  border-radius: 1.5px;
+  font-size: 15px;
 }
 a {
   text-decoration: none;
@@ -30,26 +31,19 @@ header {
 }
 
 #content {
+  margin-top: 5px;
   margin-left: 90px;
-  width: 90%;
-  height: 75%;
+  width: 85%;
+  height: 55%;
   left: 5%;
-  top: 17%;
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-#content-nest {
-  margin-left: 20px;
-  padding-top: 20px;
-  font-size: 25px;
-  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 #Booknow {
   background-color: #2A2A2A;
   margin-left: 50%;
   width: 12%;
-  height: 5%;
+  height: 30px;
   color: white;
   font-weight: bold;
   border: black 1px solid;
@@ -65,43 +59,28 @@ nav, ul {
 }
 
 #rest {
-  margin-left: 80px;
+  margin-top: 25px;
+  margin-left: 100px;
   position: absolute;
-  top: 10px;
-  left: 200px;
+  top: 25px;
+  left: 210px;
   color: black;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: bold;
 
 }
 
 #K {
   margin-left: 80px;
-  font-size: 195px;
+  font-size: 200px;
   position: absolute;
-  top: 1px;
+  top: 0px;
   left: 100px;
+  margin-top: 0px;
 }
 
 nav {
-  margin-left: 260px;
-  margin-top: 6.5em;
+  margin-left: 300px;
+  margin-top: 8.9em;
   margin-bottom: 0em;
-}
-
-footer {
-  background: rgba(255, 255, 255, 0.4);
-}
-
-#footer {
-  text-align: center;
-  width: 90%;
-  margin-left: 90px;
-}
-
-#footer-buttons {
-  display: inline-block;
-  color: black;
-  margin-bottom: 0em;
-
 }

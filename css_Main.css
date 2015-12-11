@@ -1,7 +1,8 @@
 body {
   font-family: sans-serif;
   background: url(images/KokodaRiver.jpg) center no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 ul {
   list-style: none;
@@ -31,9 +32,7 @@ header {
 #content {
   width: 90%;
   height: 75%;
-  position: absolute;
-  left: 5%;
-  top: 17%;
+  margin-left: 90px;
   background-color: rgba(255, 255, 255, 0.3);
 }
 

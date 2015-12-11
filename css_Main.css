@@ -89,7 +89,9 @@ footer {
   margin-left: 90px;
   width: 85%;
   margin-bottom: 0em;
+  margin-top: 10%;
   background-color: rgba(255, 255, 255, 0.3);
+  height: 10%;
 }
 
 #footer {
@@ -99,7 +101,11 @@ footer {
 #footer div a {
   width: 80px;
   color: black;
-  display: inline-block;
+  display: inline;
   float: right;
 
+}
+
+#footer p {
+  line-height: .5;
 }

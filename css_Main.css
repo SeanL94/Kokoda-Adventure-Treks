@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background: url(images/KokodaRiver.jpg) center no-repeat;
+  background: url(images/KokodaRiver.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -30,9 +30,11 @@ header {
 }
 
 #content {
+  margin-left: 90px;
   width: 90%;
   height: 75%;
-  margin-left: 90px;
+  left: 5%;
+  top: 17%;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -56,24 +58,26 @@ nav, ul {
 }
 
 #rest {
+  margin-left: 80px;
   position: absolute;
-  top: 25px;
+  top: 10px;
   left: 200px;
   color: black;
-  font-size: 350%;
+  font-size: 100px;
   font-weight: bold;
 
 }
 
 #K {
-  font-size: 1000%;
+  margin-left: 80px;
+  font-size: 195px;
   position: absolute;
   top: 1px;
   left: 100px;
 }
 
 nav {
-  margin-left: 11em;
+  margin-left: 260px;
   margin-top: 6.5em;
   margin-bottom: 0em;
 }

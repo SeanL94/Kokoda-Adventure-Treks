@@ -33,7 +33,9 @@ header {
 #content {
   margin-top: 5px;
   margin-left: 90px;
-  width: 85%;
+  padding-left: 300px;
+  padding-top: 30px;
+  width: 62.5%;
   height: 55%;
   left: 5%;
   background-color: rgba(255, 255, 255, 0.3);
@@ -41,7 +43,7 @@ header {
 
 #Booknow {
   background-color: #2A2A2A;
-  margin-left: 50%;
+  margin-left: 13%;
   width: 12%;
   height: 30px;
   color: white;
@@ -86,15 +88,18 @@ nav {
 }
 
 footer {
+  font-weight: bold;
+  float: bottom;
   margin-left: 90px;
   width: 85%;
-  margin-bottom: 0em;
-  margin-top: 10%;
+  margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.3);
   height: 10%;
 }
 
 #footer {
+  padding-top: 20px;
+  padding-left: 100px;
   margin-left: 2px;
 }
 
@@ -103,6 +108,7 @@ footer {
   color: black;
   display: inline;
   float: right;
+  float: bottom;
 
 }
 

@@ -42,6 +42,7 @@ header {
   float: left;
   color: white;
   font-family: headerFont;
+  font: headerFont;
 }
 
 #content {

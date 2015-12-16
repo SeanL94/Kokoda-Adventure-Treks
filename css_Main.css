@@ -17,6 +17,20 @@ li {
   border: 3.5px #4A7023 solid;
   border-radius: 1.5px;
   font-size: 15px;
+  /*Transition Effects*/
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+li:hover {
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  background-color: grey;
 }
 a {
   text-decoration: none;

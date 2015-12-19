@@ -134,3 +134,49 @@ footer {
 #post_Office {
   padding-left: 50px;
 }
+
+#InfoList li {
+  display: ;
+  border: none;
+  background-color: transparent;
+  padding-top: 0em;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+#InfoList li a {
+  padding: 0.25em;
+  background-color: #181818;
+  text-align: center;
+  border: 3.5px #4A7023 solid;
+  border-radius: 1.5px;
+  font-size: 15px;
+  /*Transition Effects*/
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+#InfoList li a:hover {
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  background-color: grey;
+}
+
+#ToOwers {
+  margin-bottom: 3em;
+}
+
+h20 {
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}

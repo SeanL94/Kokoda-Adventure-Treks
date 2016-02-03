@@ -56,6 +56,13 @@ header {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+#aboutUS {
+  /*background-image: url(images/Cover.jpg);*/
+  background-size: 400px 500px;
+  background-repeat: no-repeat;
+  background-position: 550px;
+}
+
 #Booknow {
   background-color: #2A2A2A;
   margin-left: 13%;
@@ -84,6 +91,8 @@ nav, ul {
   color: black;
   font-size: 80px;
   font-weight: bold;
+  font-style: oblique;;
+  font-family: Georgia, serif;
 
 }
 
@@ -94,6 +103,8 @@ nav, ul {
   top: 0px;
   left: 100px;
   margin-top: 0px;
+  font-style: normal;
+  font-family: Georgia, serif;
 }
 
 nav {

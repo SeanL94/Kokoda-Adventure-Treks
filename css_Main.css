@@ -73,10 +73,10 @@ header {
   border: black 1px solid;
   margin-bottom: 2em;
 }
-@font-face {
+/*@font-face {
   font-family: headerFont;
   src: url(BLACKADD.TTF);
-}
+}*/
 
 nav, ul {
   margin-top: 2.5em;
@@ -118,10 +118,10 @@ footer {
   float: center;
   margin-left: 90px;
   width: 85%;
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.5);
   height: 40px;
-  line-height: -60px;
+  line-height: 4px;
 }
 
 #footer {

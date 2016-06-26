@@ -8,7 +8,7 @@ ul {
   list-style: none;
 }
 li {
-  width:170px;
+  width:20%;
   list-style-type: none;
   display: inline-block;
   padding: .5em;
@@ -83,11 +83,11 @@ nav, ul {
 }
 
 #rest {
-  margin-top: 25px;
-  margin-left: 100px;
+  margin-top: 2%;
+  margin-left: 8%;
   position: absolute;
   top: 25px;
-  left: 210px;
+  left: 15%;
   color: black;
   font-size: 80px;
   font-weight: bold;
@@ -97,11 +97,11 @@ nav, ul {
 }
 
 #K {
-  margin-left: 80px;
+  margin-left: 5%;
   font-size: 200px;
   position: absolute;
   top: 0px;
-  left: 100px;
+  left: 8%;
   margin-top: 0px;
   font-style: normal;
   font-family: Georgia, serif;
